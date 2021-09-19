@@ -1,0 +1,217 @@
+/* 常规设置 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+em,
+i {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+button {
+    cursor: pointer
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: #c81623
+}
+
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    border: 0;
+    outline: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666;
+}
+
+.hide,
+.none {
+    display: none
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+
+
+
+
+
+
+.w {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.registerarea {
+    margin-top: 20px;
+    height: 550px;
+    border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+    font-size: 18px;
+    font-weight: 400;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 30px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+}
+
+.registerarea h3 .login {
+    float: right;
+    font-size: 14px;
+}
+
+.login a {
+    color: #c81523;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.safe em {
+    color: #fff;
+    padding: 0 12px;
+}
+
+.safe {
+    padding-left: 175px;
+}
+
+.ruo {
+    background-color: #c81523;
+}
+
+.zhong {
+    background-color: orange;
+}
+
+.qiang {
+    background-color: green;
+}
+
+.agree {
+    padding-left: 95px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #1ba1e1;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    background: #c81523;
+    color: #fff;
+    margin: 30px 0 0 70px;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.copyright {
+    line-height: 20px;
+}
+
+
+/* 性别 */
+
+.sex>input {
+    margin-left: 30px!important;
+    width: 15px!important;
+    height: 15px!important;
+}
+
+.sex {
+    margin-top: 20px;
+}
+
+.man {
+    margin-left: 30px;
+}
+
+.woman {
+    margin-left: 30px;
+}
+
+
+/* 主站 */
+
+.back>a {
+    color: black;
+}
+
+.back>a:hover {
+    color: orange;
+}

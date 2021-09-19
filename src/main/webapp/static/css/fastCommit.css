@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button-box {
+    z-index: 100;
+    position: fixed;
+    right: 0;
+    bottom: 15%;
+    width: 40px;
+    height: 130px;
+    padding: 0 8px 0 0;
+}
+
+.button-box a {
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.message_box,
+.change_box,
+.top_box,
+.person_button,
+.fast_match {
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+    background-color: #ccc;
+}
+
+.change_box {
+    z-index: 10;
+}
+
+.change_box {
+    font-size: 12px;
+}
+
+.fast_match {
+    position: absolute;
+    bottom: 45px;
+}
+
+.person_button {
+    position: absolute;
+    bottom: 90px;
+}
+
+.top_box {
+    position: absolute;
+    bottom: 135px;
+}
+
+.narrow-box {
+    position: absolute;
+    display: none;
+    right: 0;
+    bottom: 36.5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    line-height: 12px;
+    /* font-family: ; */
+    background-color: aquamarine;
+}

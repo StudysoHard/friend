@@ -1,0 +1,102 @@
+.user_infromation {
+    margin-top: 25px;
+    margin-left: 25px;
+    padding: 0 15px;
+    width: 920px;
+    height: 500px;
+    border: 1px solid #BEBEBE;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.user_information-top {
+    line-height: 48px;
+    height: 48px;
+    color: rgba(var(--grey-9-rgb), 1);
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #CFCFCF;
+}
+
+.user_information-img {
+    margin: 1px 0 32px 0;
+    height: 80px;
+}
+
+.user_title {
+    position: relative;
+    height: 80px;
+    width: 200px;
+}
+
+.user_title span {
+    display: block;
+    margin-top: 10px;
+    padding: 0 10px;
+    width: 80px;
+    height: 40px;
+}
+
+.user_title input:nth-child(n+2) {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+}
+
+.user_basis_information-header {
+    color: rgba(var(--grey-8-rgb), 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #CFCFCF;
+}
+
+.user_basis_information>div {
+    height: 20px;
+    margin: 0 0 24px;
+}
+
+.user_basis_information>div label {
+    width: 85px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(var(--grey-6-rgb), 1);
+    margin-right: 34px;
+}
+
+.user_basis_information .person_introduction {
+    height: 58px;
+    margin: 0 0 24px;
+}
+
+.user_basis_information .person_introduction textarea {
+    vertical-align: middle;
+}
+
+.user_basis_information div:last-child {
+    margin: 0;
+    position: relative;
+}
+
+.user_basis_information div:last-child button {
+    position: absolute;
+    width: 100px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.img_promit{
+    display:inline-block;
+    color: rgb(91, 192, 222);
+    width: 50px;
+    height: 20px;
+    background-color: #ffffff;
+    border: 1px solid black;color: black;
+    border-radius: 5px
+}
+
+.img_promit:hover{
+    background-color:rgb(91, 192, 222);
+    color: #ffffff;
+}

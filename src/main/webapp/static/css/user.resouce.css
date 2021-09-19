@@ -1,0 +1,102 @@
+.user_resouce {
+    position: relative;
+    margin-top: 25px;
+    margin-left: 350px;
+    padding-top: 30px;
+    width: 800px;
+    height: 800px;
+    border: 1px solid #BEBEBE;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.user_resouce-header {
+    color: #1cb0bb;
+    line-height: 62px;
+    font-size: 15px;
+    font-weight: 700;
+    height: 62px;
+    padding: 0 16px;
+    background-color: #4a8197;
+    border-radius: 10px;
+}
+
+.row_1,
+.row_2 {
+    margin-left: 20px;
+    margin-top: 42px;
+    height: 250px!important;
+    width: 800px!important;
+}
+
+.project_simple {
+    margin-top: 10px;
+    margin-left: 33px;
+    display: inline-block;
+}
+
+.user_resouce-body>div img {
+    width: 142px;
+    height: 142px;
+    border-radius: 10px;
+}
+
+.user_resouce-body>div h1 {
+    font-size: 16px;
+    margin: 12px 0 0;
+    line-height: 24px;
+    color: rgba(var(--grey-8-rgb), 1);
+    height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.tag-container {
+    margin: 8px 0 0;
+    height: 20px;
+}
+
+.tag-container div {
+    padding: 0 8px;
+    margin-right: 10px;
+    float: left;
+    width: 40px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+
+.user_resouce-body a {
+    text-decoration: none;
+}
+
+.tag-container div:last-child {
+    margin-right: 0;
+}
+
+.join-count {
+    margin-top: 8px;
+}
+
+.change-page {
+    width: 350px;
+    margin: 50px auto;
+}
+
+.change-page ul li {
+    background-color: #fff;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid pink;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.change-page ul li:hover {
+    transform: scale(1.2);
+}

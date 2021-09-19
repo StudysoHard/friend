@@ -1,0 +1,92 @@
+.border_flex .card {
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.border_flex .card span {
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.border_flex .card:hover span {
+    opacity: 1;
+}
+
+.border_flex .card span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #1779ff);
+    animation: run1 2s linear infinite;
+}
+
+@keyframes run1 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.border_flex .card span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #1779ff);
+    animation: run2 2s linear infinite;
+    animation-duration: 1s;
+}
+
+@keyframes run2 {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+.border_flex .card span:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    height: 3px;
+    background: linear-gradient(to left, transparent, #1779ff);
+    animation: run3 2s linear infinite;
+}
+
+@keyframes run3 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.border_flex .card span:nth-child(4) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to top, transparent, #1779ff);
+    animation: run4 2s linear infinite;
+    animation-duration: 1s;
+}
+
+@keyframes run4 {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}

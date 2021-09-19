@@ -1,0 +1,33 @@
+用户模块
+    通过用户行为来区分           actionName
+        用户登录               actionName = login
+        进入个人中心            actionName = userCenter
+        加载头像                actionName = userHead
+        验真昵称的唯一性         actionName = checkNick
+        修改用户信息            actionName = updateUser
+        用户退出                actionNmae = logout
+
+
+       在userServlet的service方法中，获取用户行为
+            1.获取用户行为
+                String actionName = request.getParmeter("actionNmae");
+            2.判断用行为 调用对应方法
+                if("login".queals(actionName)){
+                    //用户登录
+                } else if("userCenter".equals(actionName)){
+                    //进入个人中心
+                }
+
+
+1.用户登录
+    ============================
+        1.添加表单 设置表单属性
+            action="user" method="post" id="loginForm"
+        2.设置表单元素的name属性值 修改id属性值
+            设置文本框和密码框的属性值
+            设置复选框的nam属性值和value属性值 (如果复选框未选中 在获取不到value属性值)
+            设置隐藏域 传递用户行为 (name="actionName" value="login")
+        3.在config.js文件中 添加了按钮的点击事件 checkLogin()
+            表单校验
+                1.获取表单元素的值(姓名 密码)
+                2.判断元素的值是否为空 (引入util.js)

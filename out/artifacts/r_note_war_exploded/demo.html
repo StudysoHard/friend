@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>提交数据</title>
+    <script type="text/javascript" src="./static/js/jquery.js"></script>
+</head>
+<body>
+<form>
+    <p>影视角色</p>
+    姓名：<input type="text" id="name"><br>
+    电影：<input type="text" id="film"><br>
+    <input type="button" value="提交" id="sender">
+</form>
+<div id="message"></div>
+<script type="text/javascript">
+    $('#sender').click(function () {              //点击按钮触发
+        let name=document.getElementById("name").value;
+        let film=document.getElementById("film").value;
+        let role={"name":name,"film":film};            //新建一个json对象
+        let url="submitServlet";
+        $.ajax({
+            type: "post",
+            url: "submitServlet",
+            data: {
+                role: role
+            },
+            success: function (data) {
+                alert("成功上传")
+            }
+        })
+        $.ajax({
+            type: "get",
+            url: "submitServlet",
+            data: {
+                role : role
+            },
+            success: function (data) {
+                console.log()
+                alert("返回的数据是 "+data)
+            }
+        })
+    });
+</script>
+</body>
+</html>

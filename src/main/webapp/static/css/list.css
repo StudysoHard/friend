@@ -1,0 +1,288 @@
+/* 常规设置 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+em,
+i {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+button {
+    cursor: pointer
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: #c5c816
+}
+
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    border: 0;
+    outline: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666;
+}
+
+.hide,
+.none {
+    display: none
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+
+/* 导航 */
+
+.back_index {
+    position: absolute;
+    line-height: 60px;
+    width: 80px;
+    height: 80px;
+    font-size: large;
+}
+
+.form-group>.search_top_text {
+    margin-left: 300px;
+    width: 500px;
+}
+
+.user_head {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.user_name {
+    margin-top: 14px;
+    margin-left: 60px;
+    font-style: inherit;
+}
+
+
+/* 主要盒子 */
+
+.simple_resource {
+    height: 40px;
+    position: relative;
+    margin-top: 10px;
+    border: 1px solid rgb(225, 228, 232);
+}
+
+.simple_resource>div {
+    line-height: 40px;
+    position: absolute;
+}
+
+.simple_resource:hover {
+    background-color: rgb(246, 248, 250);
+}
+
+.fildFont {
+    margin-left: 25px;
+    font-size: larger;
+}
+
+.fildName {
+    margin-left: 200px;
+}
+
+.fildUserName {
+    margin-left: 500px;
+}
+
+.fildTime {
+    margin-left: 800px;
+}
+
+.clickNum {
+    margin-left: 1000px;
+}
+
+
+/* 主体区域 */
+
+
+/* 标题 */
+
+.panel_type_main {
+    margin-top: 10px;
+}
+
+.text_title {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.text_information {
+    margin-top: 24px;
+}
+
+.eye {
+    width: 20px;
+}
+
+.writer {
+    color: rgb(1, 29, 209);
+    margin-top: 7px;
+    font-size: 10px;
+    font-style: oblique;
+}
+
+.time_visited {
+    margin-top: 7px;
+}
+
+.time_create {
+    margin-top: 7px;
+    color: rgb(226, 45, 45);
+    font-size: x-small;
+}
+
+.text_small {
+    margin-top: 10px;
+    color: rgb(143, 130, 130);
+}
+
+.project_head{
+    text-indent: 50px;
+}
+
+.text_main{
+    margin-top: 100px;
+}
+
+
+/* 左侧项目发起者信息 */
+
+.create_person>h1 {
+    color: aquamarine;
+    padding-left: 50px;
+}
+
+.left_box {
+    padding-left: 50px;
+}
+
+.create_user_name {
+    color: #c5c816;
+}
+
+.create_user_content {
+    padding-top: 10px;
+    color: gray;
+}
+
+
+
+/* 功能盒子 */
+
+.subnav {
+    position: fixed;
+    top: 49px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: -1px 0 8px rgba(0, 0, 0, .03);
+    height: 100%;
+    z-index: 2;
+}
+
+.subnav>.sub_index {
+    width: 40px;
+    height: 100%;
+    float: left;
+    position: relative;
+    transition: .2s width;
+}
+
+.sub_top {
+    width: 100%;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.sub_button {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 80%;
+}
+
+.sub_top>a,
+.sub_button>a {
+    text-decoration: none;
+    transition: 0.2s width;
+    text-align: center;
+    width: 40px;
+    height: 65px;
+    display: block;
+}
+
+.sub_button>a {
+    height: 33px;
+}
+
+.sub_top>a>li,
+.sub_button>a>li {
+    display: block;
+    position: relative;
+    font-size: 12px;
+    color: #9fa3b0;
+    line-height: 14px;
+}
+
+.sub_top>a>p,
+.sub_button>a>p {
+    margin-top: 10px;
+    display: none;
+}
+
+.sub_index:hover {
+    width: 60px;
+}
+
+.sub_top>a:hover{
+    width: 60px;
+}
+
+
+
+/* 底部样式 */
+
+.footer {
+    margin-top: 100px;
+}

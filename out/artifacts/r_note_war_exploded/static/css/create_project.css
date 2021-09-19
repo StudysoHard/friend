@@ -1,0 +1,38 @@
+/* 项目区域 */
+
+.project_main {
+    position: relative;
+    margin-top: 100px;
+    width: 1200px;
+}
+
+.project_main>ul>li {
+    margin-top: 40px;
+}
+
+.project_main>ul>li>p,
+input {
+    display: inline-block!important;
+}
+
+.project_main>ul>li>p {
+    font-size: large;
+    color: rgb(62, 169, 194);
+    margin-left: 50px;
+}
+
+.project_main>ul>li>input {
+    margin-left: 60px;
+}
+
+#projectType {
+    margin-left: 100px;
+    width: 150px;
+}
+
+#projectHead {
+    overflow: hidden;
+    margin-left: 100px;
+    width: 600px;
+    height: 80px;
+}

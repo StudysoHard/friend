@@ -1,0 +1,45 @@
+.user_privacy {
+    margin-top: 25px;
+    margin-left: 25px;
+    padding: 30px 15px;
+    width: 920px;
+    height: 730px;
+    border: 1px solid #BEBEBE;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.user_privacy h1 {
+    font-size: 24px;
+    margin: 0 25px;
+    color: #3f3f3f;
+    border-bottom: 1px solid #CFCFCF;
+}
+
+.user_privacy-content {
+    margin: 1px 25px 0 25px;
+    padding: 30px 0 32px;
+    height: 240px;
+}
+
+.user_privacy-content h2 {
+    font-size: 18px;
+    color: #3f3f3f;
+}
+
+.user_privacy-content p {
+    font-size: 14px;
+    margin: 15px 0 0;
+    color: #000000;
+}
+
+.user_privacy-content ul {
+    margin: 15px 0 0 35px;
+}
+
+.user_privacy-content ul li {
+    margin: 3px 0 0;
+    list-style: disc;
+    font-size: 14px;
+    color: #000000;
+}

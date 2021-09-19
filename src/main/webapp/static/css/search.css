@@ -1,0 +1,460 @@
+/* 常规设置 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+em,
+i {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+button {
+    cursor: pointer
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: #c81623
+}
+
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    border: 0;
+    outline: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666;
+    background-color: #666;
+}
+
+.hide,
+.none {
+    display: none
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+
+/* 导航 */
+
+.hidden {
+    transform: rotate(90deg);
+}
+
+.return_index {
+    float: left;
+    margin-top: 10px;
+    margin-left: 300px;
+    color: rgb(97, 80, 96);
+    font-size: larger;
+}
+
+.return_index:hover {
+    color: orange;
+}
+
+.username {
+    float: right;
+    margin-top: 15px;
+    margin-right: 200px;
+}
+
+.userhead {
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+
+/* 搜索主体 */
+
+.search_main {
+    height: 700px;
+    width: 1200px;
+    background-color: #fff;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 160px;
+    transition: all 1s;
+}
+
+.search_font {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 14px;
+    font-size: large;
+    transition: all 0.5s;
+}
+
+.font_button {
+    transform: rotate(90deg);
+}
+
+.search_submit {
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    margin-left: 820px;
+}
+
+.search_name {
+    position: absolute;
+    margin-left: 255px;
+    color: gray;
+    width: 500px;
+    height: 50px;
+    border: 3px solid gray;
+}
+
+.search_button {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.year {
+    display: inline-block;
+    position: absolute;
+}
+
+.month {
+    display: inline-block;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.day {
+    display: inline-block;
+    margin-left: 400px;
+    position: absolute;
+}
+
+#begin_year {
+    width: 150px;
+    height: 30px;
+}
+
+#begin_month {
+    width: 150px;
+    height: 30px;
+}
+
+#begin_day {
+    width: 150px;
+    height: 30px;
+}
+
+#last_year {
+    width: 150px;
+    height: 30px;
+}
+
+#last_month {
+    width: 150px;
+    height: 30px;
+}
+
+#last_day {
+    width: 150px;
+    height: 30px;
+}
+
+.last_time {
+    margin-top: 150px;
+}
+
+.position_ul_where {
+    position: relative;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+
+.position_ul_type {
+    position: relative;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.position_ul_type>li>a {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+
+.position_ul_where>li>a {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+
+#lastStudy{
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 125px;
+    width: 200px;
+}
+
+.click_bgc {
+    background-color: aquamarine;
+}
+
+.position_ul>li>a:hover {
+    color: rgb(73, 120, 238);
+}
+
+.blue {
+    background-color: rgb(214, 245, 247);
+}
+
+.search_people {
+    width: 1200px;
+    position: relative;
+    margin-top: 43px;
+    margin-left: 14px;
+}
+
+.search_people>span {
+    font-size: large;
+    margin-left: 126px;
+}
+
+.search_people>input {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-left: 30px!important;
+}
+
+.search_sex{
+    width: 1000px;
+    position: relative;
+    margin-top: 43px;
+    margin-left: 170px;
+}
+
+.search_sex>span {
+    font-size: large;
+    margin-left: 126px;
+}
+
+.search_sex>input {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-left: 30px!important;
+}
+
+/* 搜索内容的主体 */
+
+.move {
+    margin-top: 800px !important;
+}
+
+.project_main {
+    float: left;
+}
+
+.project_img>a>img{
+    float: left;
+    margin-left: 36px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.result_main {
+    position: absolute;
+    transition: all 0.2s;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.result_main>ul>li {
+    background-color: rgb(230, 228, 228);
+    margin-top: 20px;
+    float: left;
+    width: 800px;
+    height: 200px;
+}
+
+
+.project_title {
+    width: 600px;
+    height: 20px;
+    font-size: large;
+    font-weight: 600;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.project_head {
+    float: left;
+    width: 600px;
+    height: 66px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: medium;
+    overflow: hidden;
+}
+
+.createName {
+    float: left;
+    width: 200px;
+}
+
+.projectType {
+    float: left;
+    width: 200px;
+}
+
+.projectPeopleNum {
+    float: left;
+    width: 200px;
+}
+
+.word_button {
+    float: left;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.word_button>div {
+    margin-left: 20px;
+}
+
+.create_people {
+    display: none;
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(26, 106, 197);
+    position: absolute;
+    margin-left: 850px;
+}
+
+.csr {
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 84px;
+    width: 50px;
+    height: 30px;
+}
+
+.create_people_name {
+    margin-top: 11px;
+    margin-left: 10px;
+}
+
+.create_people_img {
+    margin-left: 72px;
+    margin-top: 41px;
+}
+
+.create_people_content {
+    width: 150px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+
+/* 快速匹配 */
+
+.fast_style {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    transition: all 0.5s;
+}
+
+
+/* 底部 */
+
+.page_main {
+    position: relative;
+    margin-top: 1250px;
+    margin-left: 300px;
+    width: 800px;
+}
+
+.page_main>a>li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #666;
+    margin: 10px;
+    text-align: center;
+    color: rgb(44, 107, 168);
+    line-height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.page_main>a>li:hover {
+    transform: scale(1.2);
+}
+
+.turn_button_move {
+    margin-top: 1950px;
+}
+
+.turn_button {
+    position: relative;
+    margin-left: 300px;
+    margin-top: 1200px;
+}
+
+.footer_move {
+    margin-top: 50px !important;
+}
+
+.footer {
+    position: relative;
+    margin-top: 50px;
+}
